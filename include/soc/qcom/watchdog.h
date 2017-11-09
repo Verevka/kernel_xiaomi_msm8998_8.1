@@ -26,4 +26,8 @@ void msm_trigger_wdog_bite(void);
 static inline void msm_trigger_wdog_bite(void) { }
 #endif
 
+#ifdef CONFIG_QCOM_DLOAD_MODE
+int get_dload_mode(void);
+#endif
+
 #endif
