@@ -61,7 +61,7 @@
 				05 01 00 00 78 00 02 10 00];
 		qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 		qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
-		qcom,esd-check-enabled;
+		//qcom,esd-check-enabled;
 		qcom,mdss-dsi-panel-status-check-mode = "reg_multi_read";
 		/* mdss-dsi-panel-status-command store all ESD releated commands and expected
 		status values, and every command can have more than one returned values */
